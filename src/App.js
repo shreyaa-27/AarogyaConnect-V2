@@ -1,16 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SignUp from "./components/SignUp";
+import Splash from "./components/Splash";
 import LanguageSelection from "./components/LanguageSelection";
 import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LanguageSelection />} />
+        <Route path="/" element={<Splash />} />
+        <Route path="/language" element={<LanguageSelection />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<SignUp />} /> {/* Added SignUp route */}
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </Router>
   );
