@@ -1,0 +1,76 @@
+/* Home Page Styling */
+
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f3f4f6;
+    padding: 20px;
+  }
+  
+  .home-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .home-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .home-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .home-list li {
+    margin: 10px 0;
+  }
+  
+  .home-link {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+    color: white;
+    text-align: center;
+  }
+  
+  .home-link:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Button Colors */
+  .home-link.home-remedies { background: #2563eb; }
+  .home-link.home-remedies:hover { background: #1e40af; }
+  
+  .home-link.doctors { background: #059669; }
+  .home-link.doctors:hover { background: #047857; }
+  
+  .home-link.ambulance { background: #dc2626; }
+  .home-link.ambulance:hover { background: #b91c1c; }
+  
+  .home-link.emergency { background: #ea580c; }
+  .home-link.emergency:hover { background: #c2410c; }
+  
+  .home-link.medicine { background: #9333ea; }
+  .home-link.medicine:hover { background: #7e22ce; }
+  
+  .home-link.schemes { background: #4f46e5; }
+  .home-link.schemes:hover { background: #4338ca; }
+  
+  .home-link.ai { background: #14b8a6; }
+  .home-link.ai:hover { background: #0d9488; }
+  

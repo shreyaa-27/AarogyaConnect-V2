@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png"; // Add your logo inside 'src/assets' folder
+import "./Splash.css";
+
 
 const Splash = () => {
   const navigate = useNavigate();
